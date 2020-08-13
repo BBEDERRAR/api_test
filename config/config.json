@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "database": "motorola",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port": "8889",
+    "operatorsAliases": false
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "ssl": true
+  }
+}
